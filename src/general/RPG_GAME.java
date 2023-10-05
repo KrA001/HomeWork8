@@ -9,7 +9,7 @@ public class RPG_GAME {
         Golem golem = new Golem(250,20,"Golem");
         Warrior warrior = new Warrior(250,25,"VOIN");
         Berserk berserk = new Berserk(200,20,"Berserk");
-        Medic medic = new Medic(350,0,"Medic");
+        Medic medic = new Medic(150,5,"Medic");
 
         Hero[] heroes ={magic,golem,warrior,berserk,medic};
         printStatistics(boss, heroes);
